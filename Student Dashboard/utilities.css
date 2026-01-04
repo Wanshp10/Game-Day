@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+}
+
+.justify_content_space_between{
+    justify-content: space-between;
+}
+
+.justify_content_center{
+    justify-content: center;
+}
+
+.align_item_center{
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: rgb(55, 131, 202);
+}
+
+.text_blue{
+    color: rgb(55, 131, 202);
+}
+
+.text_white{
+    color: white;
+}
+

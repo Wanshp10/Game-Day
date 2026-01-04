@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header text_blue">
+            Student Ranking Dashboard
+        </div>
+
+        <div class="data justify_content_space_between flex">
+            <div class="name">
+                <input id="name" type="text" placeholder="Enter student's name: ">
+            </div>
+
+            <div class="marks">
+                <input id="marks" type="number" placeholder="Enter marks of student">
+            </div>
+        </div>
+
+        <div class="std">
+            <table>
+                <tbody id="stdEntries">
+                    <tr>
+                        <td>STUDENTS</td>
+                        <td>MARKS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="buttons justify_content_space_between">
+            <button class="student add">ADD STUDENT</button>
+            <button class="student sort">SORT STUDENTS</button>
+        </div>
+    </div>
+</body>
+</html>

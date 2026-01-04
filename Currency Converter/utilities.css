@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.justify_content_space_between{
+    justify-content: space-between;
+}
+
+.justify_content_center{
+    justify-content: center;
+}
+
+.align_item_center{
+    align-items: center;
+}
+
+.gray{
+    background-color: rgb(229, 229, 229);
+}
+
+.white{
+    background-color: white;
+}
+
+.lightgray{
+    background-color: rgba(255, 255, 255, 0.1);
+}
